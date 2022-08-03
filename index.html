@@ -1,0 +1,449 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Netflix India – Watch TV Shows Online, Watch Movies Online</title>
+    <link rel="icon" href="./logo.png">
+</head>
+<style> *{
+margin: 0px;
+    padding: 0px;
+}
+    body{
+      
+        overflow-x: hidden;
+    }
+.container{ display: grid;
+    grid-template-areas: 'section1 section1'
+    'section2 section2'
+    'section3 section3'
+    'section4 section4'
+    'section5 section5'
+    'section6 section6'
+    'section7 section7';
+}
+.section1{
+    grid-area: section1;
+    background-image: url('./netflix.jpg');
+    width: 100vw;
+    height: 800px;
+ box-shadow: 0px 100px 100px black inset, 0px -100px 100px black inset;
+ border-bottom: 10px solid rgb(62, 62, 62);
+}
+
+
+.logo{
+    width: 150px;
+    height: 40px;
+    position: absolute;
+    top: 35px;
+    left: 80px;
+}
+
+.anchortag{
+    list-style: none;
+    float: right;
+    margin-top: 35px;
+    margin-right: 75px;
+}
+.signin{
+    text-decoration: none;
+    color: white;
+    background-color: #E50914;
+   padding-left: 15px;
+   padding-top: 5px;
+   padding-bottom: 5px;
+   padding-right: 15px;
+    border-radius: 5px;
+    font-size: 20px;
+}
+
+
+.searchget{text-decoration: none;
+    color: white;
+    background-color: #E50914;
+    position: absolute;
+    top: 590px;
+   left: 854px;
+   width: 210px;
+    height: 39px;
+    border-radius: 2px;
+    font-size: 30px;
+    padding-left: 30px;
+    padding-top: 15px;
+    padding-bottom: 10px;
+}
+.searchget:hover{
+    background-color: red;
+}
+.nheading{position: absolute;
+    font-size: 70px;
+    color: white;
+    top: 300px;
+   left: 450px;
+}
+.nheading1{
+    position: absolute;
+    font-size: 30px;
+    color: white;
+    top: 480px;
+   left: 510px;
+}
+.nheading2{
+    position: absolute;
+    font-size: 20px;
+    color: white;
+    top: 540px;
+   left: 420px;
+}
+.searchbar{width: 500px;
+    height: 60px;
+    position: absolute ;
+    top: 590px;
+   left: 350px;
+}
+
+
+
+
+.section2{
+    grid-area: section2;
+    width: 100vw;
+    height: 500px;
+    background-color: rgb(0, 0, 0);
+    border-bottom: 10px solid rgb(62, 62, 62);
+}
+.enjoyheading{
+    color: white;
+font-size: 50px;
+position: absolute;
+top: 1020px;
+left: 200px;
+}
+
+.watchheading{
+    color: white;
+font-size: 27px;
+position: absolute;
+top: 1090px;
+left: 200px;
+}
+.tv{
+    margin-top: 110px;
+    margin-left: 900px;
+    height: 630px;
+    width: 650px;
+   
+    
+}
+.tvimg{
+    position: absolute;
+    left: 845px;
+    top: 940px;
+    width: 436px;
+    height: 320px;
+}
+
+
+
+
+
+.section3{
+    grid-area: section3;
+    width: 100vw;
+    height: 500px;
+    background-color: rgb(0, 0, 0);
+    border-bottom: 10px solid rgb(62, 62, 62);
+}
+
+.strangerimg{
+    margin-left: 90px;
+    margin-top: 50px;
+    width: 550px;
+    height: 400px;
+}
+
+.downloadheading{
+    color: white;
+font-size: 50px;
+position: absolute;
+top: 1500px;
+left: 800px;
+}
+
+.downloadheading1{
+    color: white;
+font-size: 27px;
+position: absolute;
+top: 1640px;
+left: 800px;
+}
+
+.stranger{
+    border: 2px solid grey;
+    border-radius: 15px;
+    background-color: black;
+    height: 110px;
+    width: 350px;
+   position: absolute;
+   top: 1630px;
+left: 190px;
+}
+
+.stposter{margin-top: 10px;
+    margin-left: 10px;
+    width: 70px;
+    height: 80px;
+}
+
+.downloadingheading{
+    color:white;
+    position: absolute;
+    top: 40px;
+    left: 110px;
+    font-size: 20px;
+  
+}
+
+.downloadimg{
+width: 50px;
+height: 50px;
+margin-left: 200px;
+padding-bottom: 10px;
+
+}
+
+
+
+
+.section4{
+    grid-area: section4;
+    width: 100vw;
+    height: 500px;
+    background-color: rgb(0, 0, 0);
+    border-bottom: 10px solid rgb(62, 62, 62);
+}
+
+.everywhereheading{
+    color: white;
+    font-size: 50px;
+position: absolute;
+left: 205px;
+    top: 2050px;
+}
+
+.everywhereheading1{
+    color: white;
+    font-size: 27px;
+position: absolute;
+left: 205px;
+    top: 2130px;
+}
+
+.rajmachawaltv{
+    position: absolute;
+    left: 845px;
+    top: 1900px;
+    width: 536px;
+    height: 420px;
+}
+
+.rajmatv{
+margin-bottom: 9px;
+    margin-left: 949px;
+    height: 630px;
+    width: 650px;
+}
+
+
+
+
+
+
+.section5{
+    grid-area: section5;
+    width: 100vw;
+    height: 500px;
+    background-color: rgb(0, 0, 0);
+    border-bottom: 10px solid rgb(62, 62, 62);
+}
+
+.kidsimg{
+    height: 380px;
+    width: 470px;
+    margin-top: 90px;
+    margin-left: 250px;
+}
+.childrenheading{font-size: 50px;
+color: white;
+position: absolute;
+    left: 845px;
+    top: 2490px;
+}
+
+.childrenheading1{ font-size: 27px;
+color: white;
+position: absolute;
+    left: 845px;
+    top: 2630px;
+
+}
+.section6{
+    grid-area: section6;
+    width: 100vw;
+    height: 800px;
+    background-color: rgb(0, 0, 0);
+    border-bottom: 10px solid rgb(62, 62, 62);
+}
+
+.list{
+    width: 60%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+}
+
+.list .faq{
+    color: white;
+    font-size: 3rem;
+    padding: 3rem 0 4rem 0;
+
+}
+
+.title{
+display: flex;
+justify-content: space-between;
+align-items: center;
+    padding: 25px 30px;
+     font-size: 25px;
+     font-weight: 400;
+     background-color: #303030;
+     color: white;
+     border-width: 0px;
+ 
+}
+
+.icon{
+    width: 20px;
+    position: relative;
+    
+}
+
+.icon::before, .icon::after{
+    content: "";
+    position: absolute;
+    width: 20px;
+    height: 3px;
+    background: white;
+    top: -1.5px;
+
+}
+
+.icon::after{
+transform: rotate(90deg);
+transition: 0.5s linear;
+}
+
+.text{
+display: flex;
+justify-content: space-between;
+ line-height: 35px;
+align-items: center;
+    padding: 25px 30px;
+     font-size: 25px;
+     font-weight: 400;
+     background-color: #303030;
+     color: white;
+     border-width: 0px;
+ 
+}
+
+
+
+.section7{
+    grid-area: section7;
+    width: 100vw;
+    height: 500px;
+    background-color: rgb(0, 0, 0);
+    border-bottom: 10px solid rgb(62, 62, 62);
+}
+</style>
+<body>
+    
+<div class="container">
+
+<div class="section1">
+
+<div class="netflixcover">
+    <img src="./netflixlogo.png" class="logo">
+<ul>
+    <li class="anchortag"><a class="signin" href="#">Sign In</a></li>
+</ul>
+<h1 class="nheading">Unlimited movies, TV <br> shows and more.</h1>
+<h1 class="nheading1">Watch anywhere. Cancel anytime.</h1>
+<h1 class="nheading2">Ready to watch? Enter your email to create or restart your membership.</h1>
+<input class="searchbar" type="text" name="searchbar" placeholder="  Email address" >
+<a href="#" class="searchget">Get Started &nbsp; ></a>
+</div>
+
+</div>
+<div class="section2">
+    <h1 class="enjoyheading">Enjoy on your TV.</h1>
+    <h1 class="watchheading">Watch on smart TVs, PlayStation, Xbox,<br> Chromecast, Apple TV, Blu-ray players and <br> more.</h1>
+    <img src="./tv.png" class="tvimg">
+    <div class="tv">
+  
+        <video width="320" height="340" autoplay loop>
+            <source src="./netflixtv.mp4" type="video/mp4">
+    </div>
+</div>
+<div class="section3">
+    <img src="./strangerthings.jpg" class="strangerimg">
+  <h1 class="downloadheading">Download your shows <br> to watch offline.</h1>
+  <h1 class="downloadheading1">Save your favourites easily and always have <br> something to watch.</h1>
+<div class="stranger">
+<img src="./posterrajmachawal.png" class="stposter">
+<h1 class="downloadingheading">Downloading...</h1>
+<img src="./download.gif" class="downloadimg">
+</div>
+
+</div>
+
+<div class="section4">
+<h1 class="everywhereheading">Watch everywhere.</h1>
+<he class="everywhereheading1">Stream unlimited movies and TV shows on <br> your phone, tablet, laptop, and TV.</he>
+<img src="./rajmachawaltv.png" class="rajmachawaltv">
+<div class="rajmatv">
+<video width="320" height="400" autoplay loop infitine>
+    <source src="./scaredgames.mp4" type="video/mp4">
+</div>
+
+</div>
+<div class="section5">
+    <img src="./kids.png" class="kidsimg">
+    <h1 class="childrenheading">Create profiles for <br> children.</h1>
+    <h1 class="childrenheading1">Send children on adventures with their <br> favourite characters in a space made just for <br> them—free with your membership.</h1>
+</div>
+<div class="section6">
+    <div class="list">
+        <h1 class="faq">Frequently Asked Questions</h1>
+<div class="accordion-menu">
+    <div class="item">
+          <button class="title">What is Netflix?<img src="./plus.png" class="icon"></button> 
+          <p class="text">Netflix is a streaming service that offers a wide variety of </br> award-winning TV shows, movies, anime, documentaries and </br> more – on thousands of internet-connected devices. </br> <br> You can watch as much as you want, whenever you want,<br> without a single ad – all for one low monthly price. There's <br> always something new to discover, and new TV shows and <br> movies are added every week!</p>  
+    </div>
+</div>
+</div>
+
+       
+<div class="section7">gsbeg</div>
+
+
+</div>
+
+</body>
+</html>
